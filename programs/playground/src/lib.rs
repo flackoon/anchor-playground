@@ -30,4 +30,8 @@ pub mod playground {
     pub fn set_inner_on_pda(ctx: Context<SetInnerOnPda>) -> Result<()> {
         ctx.accounts.process()
     }
+
+    pub fn take_stake_account(ctx: Context<TakeStakeAccount>) -> Result<()> {
+        ctx.accounts.process()
+    }
 }
